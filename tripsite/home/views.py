@@ -11,4 +11,5 @@ def Services(request):
     return render(request,'Services.html')
 def Gallery(request):
     return render(request,'Gallery.html')
-    
+def Contact(request):
+    return render(request, 'Contact.html')
